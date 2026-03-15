@@ -18,9 +18,9 @@ Food Delivery Partners (Swiggy / Zomato)
 
 1. Worker registers on the platform  
 2. AI calculates weekly premium based on location risk  
-3. System monitors weather and pollution APIs  
+3. System monitors weather APIs  
 4. If disruption occurs, claim is automatically triggered  
-5. Worker receives instant payout
+5. Worker receives instant payout  
 
 ## Parametric Triggers
 
@@ -32,7 +32,7 @@ Food Delivery Partners (Swiggy / Zomato)
 ## Weekly Premium Model
 
 | Risk Level | Weekly Premium |
-|------|------|
+|-------------|---------------|
 | Low Risk | ₹20 |
 | Medium Risk | ₹35 |
 | High Risk | ₹50 |
@@ -44,3 +44,20 @@ Backend: Spring Boot
 Database: MySQL  
 AI: Python (Scikit-learn)  
 APIs: OpenWeather API
+
+## Project Structure
+
+gigshield-ai-insurance  
+│  
+├── frontend  
+├── backend  
+├── ai-service  
+├── docs  
+└── README.md  
+
+## Future Enhancements
+
+- AI fraud detection
+- GPS validation for workers
+- Dynamic premium pricing
+- Real-time weather disruption alerts
